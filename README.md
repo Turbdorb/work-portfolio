@@ -16,7 +16,7 @@ Showing potential employers my skills and how to contact me.
 
 ## Credits
 
-N/A
+CSS Borders: https://www.w3schools.com/css/css_border.asp
 
 # License
 

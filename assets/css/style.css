@@ -12,6 +12,7 @@ body {
 
 header {
     position: fixed;
+    border-bottom: 5px groove black;
     width: 100%;
     padding: 20px;
     background-color: rgba(236, 201, 4, 0.986);
@@ -55,10 +56,18 @@ footer {
 }
 
 img {
-    width: 30%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.prework-img{
+    width: 300px;
 }
 
 h2 {
