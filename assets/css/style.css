@@ -99,6 +99,7 @@ img:hover {
     width: 300px;
 }
 
+/* helps position the about me section under the header */
 #about-me {
     position: static;
     margin-top: 100px;
@@ -153,5 +154,8 @@ footer ul {
     }
     img {
         width: 350px;
+    }
+    #about-me {
+        margin-top: 200px;
     }
 }
