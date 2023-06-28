@@ -4,12 +4,14 @@
     margin: 0;
 }
 
+/* sets background color for the webpage and flex for all the child elements */
 body {
     display: flex;
     flex-direction: column;
     background-color: rgb(200, 200, 200);
 }
 
+/* sets position of header, background color, and a bottom border */
 header {
     position: fixed;
     border-bottom: 5px groove black;
@@ -18,12 +20,14 @@ header {
     background-color: rgb(250, 209, 100);
 }
 
+/* sets the elements inner and outer display types, color and size of font */
 header h1 {
     display: inline-block;
     color: black;
     font-size: 40px;
 }
 
+/* sets the nav bar at the end of the header and the font settings */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -35,6 +39,7 @@ nav {
     font-weight: bold;
 }
 
+/* removes the bullet points */
 nav ul {
     list-style-type: none;
 }
@@ -55,24 +60,19 @@ footer {
     text-align: center;
 }
 
-img {
-    border: 5px inset black;
-    width: 500px;
-}
-
-img:hover {
-    box-shadow: 0 0 10px 10px goldenrod;
-    border-color: black;
-}
-
-.prework-img{
-    width: 300px;
-}
 
 h2 {
     padding: 10px;
     margin: 10px;
     font-size: 35px;
+}
+
+/* creates a border for the h2 of each section */
+section h2 {
+    display: inline-block;
+    border: 5px inset black;
+    width: 40%;
+    background-color: rgb(250, 209, 100);
 }
 
 h3 {
@@ -82,29 +82,41 @@ h3 {
     font-weight: normal;
 }
 
+/* sets the border around the images and the size of the picture on the webpage */
+img {
+    border: 5px inset black;
+    width: 500px;
+}
+
+/* gives a hover affect when the pointer is over an img */
+img:hover {
+    box-shadow: 0 0 10px 10px goldenrod;
+    border-color: black;
+}
+
+/* creates an id to make an img smaller than the others */
+.prework-img{
+    width: 300px;
+}
+
 #about-me {
     position: static;
     margin-top: 100px;
 }
 
+/* creates a class to git rid of the shadow on the hover affect */
 #hover {
     box-shadow: 0 0 0px 0px;
 }
 
-/* TODO: make the box look better when shrinked */
-section h2 {
-    display: inline-block;
-    border: 5px inset black;
-    width: 40%;
-    background-color: rgb(250, 209, 100);
-}
-
+/* sets the paragraph settings */
 section p {
     padding: 10px;
     margin: 10px;
     font-size: 25px;
 }
 
+/* sets footer display and background color */
 footer {
     display: block;
     background-color: darkgray;
@@ -114,6 +126,7 @@ footer ul {
     list-style-type: none;
 }
 
+/* helps with tablet and mobile compatibility and changes the color when on different devices */
 @media screen and (max-width: 992px) {
     main,
     nav,
@@ -126,7 +139,6 @@ footer ul {
         background-color: #01796f;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     main,
