@@ -99,6 +99,11 @@ img:hover {
     width: 300px;
 }
 
+.steam-img {
+    width: 600px;
+    height: 300px;
+}
+
 /* helps position the about me section under the header */
 #about-me {
     position: static;
