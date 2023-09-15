@@ -109,6 +109,11 @@ img:hover {
     height: 50%;
 }
 
+.green-thumb-img {
+    width: 50%;
+    height: 50%;
+}
+
 /* helps position the about me section under the header */
 #about-me {
     position: static;
